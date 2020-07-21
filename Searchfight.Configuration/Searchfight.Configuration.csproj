@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.6" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="3.1.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Searchfight.Common\Searchfight.Common.csproj" />
+      <ProjectReference Include="..\Searchfight.WebSearchers\Searchfight.WebSearchers.csproj" />
+    </ItemGroup>
+
+</Project>
