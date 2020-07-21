@@ -34,10 +34,12 @@ Before running this app, you need to configure both Google and Bing auth keys in
 **Google**
 
 ApiKey - key of application for custom search
+
 CustomSearchEngineId - id of custom search engine separately configured in Custom Sezrch Engine control panel
 
 **Bing**
 
 ApiKey - application key obtained from previously created Azure Cognitive Services
+
 *Note: Microsoft Azure subscription is requred to use Cognitive Services*
 
